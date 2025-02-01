@@ -1,0 +1,93 @@
+body{
+    background-color:rgb(145, 145, 249);
+    
+}
+body h1{
+color: white;
+}
+body h1:hover{
+    color:black;
+}
+button{
+    color: rgb(205, 134, 11);
+    padding: 10px;
+    justify-content: space-evenly;
+    background-color:aqua;
+    margin-right: 20px;
+    margin-top: 20px;
+}
+button:hover{
+    color: yellow
+}
+.qb button{
+    justify-content: space-evenly;
+    padding: 10px;
+    color:rgb(17, 183, 28);;
+    background-color: aliceblue;
+}
+.qb button:hover{
+    color: black
+}
+.bci button{
+    justify-content: space-evenly;
+    padding: 10px;
+    color:rgb(17, 183, 28);;
+    background-color: aliceblue;
+}
+.bci button:hover{
+    color: black
+}
+.cri button{
+    justify-content: space-evenly;
+    padding: 10px;
+    color:rgb(17, 183, 28);
+    background-color: aliceblue;
+}
+.cri button:hover{
+    color: black
+}
+.ai button{
+    justify-content: space-evenly;
+    padding: 10px;
+    color:rgb(17, 183, 28);;
+    background-color: rgb(243, 255, 240);
+}
+.ai button:hover{
+    color: black
+}
+.fu button{
+    justify-content: space-evenly;
+    padding: 10px;
+    color:rgb(17, 183, 28);;
+    background-color: aliceblue;
+}
+.fu button:hover{
+    color: black
+}
+.images{
+    display:grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+   
+}
+.images a{
+    width: 300px;
+    height: 200px;
+}
+footer form{
+    background-color: darkgrey;
+    gap: 10px;
+    justify-content: space-evenly;
+    margin-top: 20px;
+}
+.qb,.bci,.cri,.ai,.fu{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+    
+}
+.i{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    gap: 10px;
+}
